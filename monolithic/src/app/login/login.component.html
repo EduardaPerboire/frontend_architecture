@@ -1,0 +1,48 @@
+<div class="main-wrapper" fxLayout="row" fxLayoutAlign="center center">
+
+    <mat-card class="box">
+        <mat-card-header>
+            <mat-card-title>Login</mat-card-title>
+        </mat-card-header>
+
+        <form [formGroup]="userForm" class="example-form">
+        <br>
+            <div class="row">
+                <div style="vertical-align: middle;"> 
+                    <mat-icon aria-hidden="false" aria-label="Example home icon">person</mat-icon>
+                    <mat-form-field class="form-login">
+                        <input matInput type="text" id="email" class="form-control" placeholder="Email"
+                            formControlName="email"
+                            [ngClass]="{ 'is-invalid': submittedUser && hasErrorUserForm('email') }">
+                        <!-- <div class="invalid-feedback" *ngIf="hasErrorUserForm('email') && hasErrorUserForm('email')['required']">
+                        Por favor, informe o Usuário.
+                    </div> -->
+                    </mat-form-field>
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <mat-icon aria-hidden="false" aria-label="Example home icon">lock</mat-icon>
+                    <mat-form-field class="form-login">
+                        <input matInput [type]="hide ? 'password' : 'text' " id="password" placeholder="Senha"
+                            formControlName="password"
+                            [ngClass]="{ 'is-invalid': submittedUser && hasErrorUserForm('password') }">
+                        <mat-icon matSuffix (click)="hide = !hide" style="margin-right: 10px; opacity: 60%;">
+                            {{hide ? 'visibility_off' : 'visibility'}}
+                        </mat-icon>
+                        <!-- <div class="invalid-feedback" *ngIf="hasErrorUserForm('password') && hasErrorUserForm('password')['required']">
+                        Por favor, informe a senha.
+                    </div> -->
+                    </mat-form-field>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <button mat-stroked-button color="accent" style="width: 75%;margin-left: 12.5%;" class="btn-block" (click)="login()">ENTRAR<i style="margin-left: 3%;vertical-align: middle;"
+                    class="material-icons right">send</i></button>
+            </div>
+            <!-- <mat-label>Ainda não tem conta? Cadastra-se</mat-label> -->
+        </form>
+    </mat-card>
+
+</div>
