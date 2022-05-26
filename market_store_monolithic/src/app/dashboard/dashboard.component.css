@@ -1,0 +1,75 @@
+.example-card {
+    max-width: 200px;
+}
+
+.colorToolbar {
+    color: green;
+}
+
+.card-container {
+    background-image: linear-gradient(rgb(138, 242, 169), rgb(188, 242, 195), rgb(186, 244, 188), rgb(202, 242, 193));
+    ;
+    width: 100%;
+    height: auto;
+    margin: auto 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto 0;
+    overflow: hidden;
+    display: block;
+}
+
+.card-container li {
+    list-style-type: none;
+    padding: .5em .5em .5em .5em;
+    text-align: left;
+    float: left;
+}
+
+.card {
+    transition: 0.2s;
+    overflow: hidden;
+    /* width: 7em; */
+    word-wrap: break-word;
+    max-width: 193px;
+}
+
+.example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+}
+
+.mat-drawer-content {
+    position: relative;
+    z-index: 1;
+    display: block;
+    height: 100%;
+    overflow: hidden;
+}
+
+.topnav .search-container {
+    float: right;
+}
+
+.topnav input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+}
+
+.topnav .search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+    background: #ccc;
+}
