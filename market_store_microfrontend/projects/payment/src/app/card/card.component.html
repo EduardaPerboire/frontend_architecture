@@ -1,0 +1,95 @@
+<div class="main-wrapper" fxLayout="row" fxLayoutAlign="center center">
+
+    <mat-card class="box">
+        <mat-card-header>
+            <mat-card-title>Pagamento</mat-card-title>
+        </mat-card-header>
+
+        <form [formGroup]="paymentForm" class="example-form">
+        <br>
+            <div class="row">
+                <div style="vertical-align: middle;"> 
+                    <!-- <mat-icon aria-hidden="false" aria-label="Example home icon">person</mat-icon> -->
+                    <mat-form-field class="form-payment">
+                        <input matInput type="text" id="number" class="form-control" placeholder="Número do Cartão"
+                            formControlName="number"
+                            [ngClass]="{ 'is-invalid': submittedPayment && hasErrorPaymentForm('number') }">
+                        <!-- <div class="invalid-feedback" *ngIf="hasErrorUserForm('email') && hasErrorUserForm('email')['required']">
+                        Por favor, informe o Usuário.
+                    </div> -->
+                    </mat-form-field>
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <!-- <mat-icon aria-hidden="false" aria-label="Example home icon">lock</mat-icon> -->
+                    <mat-form-field class="form-payment">
+                        <input matInput type="text" id="validity" placeholder="Validade"
+                            formControlName="validity"
+                            [ngClass]="{ 'is-invalid': submittedPayment && hasErrorPaymentForm('validity') }">
+                        <!-- <div class="invalid-feedback" *ngIf="hasErrorUserForm('password') && hasErrorUserForm('password')['required']">
+                        Por favor, informe a senha.
+                    </div> -->
+                    </mat-form-field>
+                </div>
+                <div>
+                    <!-- <mat-icon aria-hidden="false" aria-label="Example home icon">lock</mat-icon> -->
+                    <mat-form-field class="form-payment">
+                        <input matInput type="text" id="CVV" placeholder="CVV"
+                            formControlName="CVV"
+                            [ngClass]="{ 'is-invalid': submittedPayment && hasErrorPaymentForm('CVV') }">
+                        <!-- <div class="invalid-feedback" *ngIf="hasErrorUserForm('password') && hasErrorUserForm('password')['required']">
+                        Por favor, informe a senha.
+                    </div> -->
+                    </mat-form-field>
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <!-- <mat-icon aria-hidden="false" aria-label="Example home icon">lock</mat-icon> -->
+                    <mat-form-field class="form-payment">
+                        <input matInput type="text" id="cardholderName" placeholder="Nome do Titular"
+                            formControlName="cardholderName"
+                            [ngClass]="{ 'is-invalid': submittedPayment && hasErrorPaymentForm('cardholderName') }">
+                        <!-- <div class="invalid-feedback" *ngIf="hasErrorUserForm('password') && hasErrorUserForm('password')['required']">
+                        Por favor, informe a senha.
+                    </div> -->
+                    </mat-form-field>
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <!-- <mat-icon aria-hidden="false" aria-label="Example home icon">lock</mat-icon> -->
+                    <mat-form-field class="form-payment">
+                        <input matInput type="text" id="cpfCnpj" placeholder="CPF/CNPJ"
+                            formControlName="cpfCnpj"
+                            [ngClass]="{ 'is-invalid': submittedPayment && hasErrorPaymentForm('cpfCnpj') }">
+                        <!-- <div class="invalid-feedback" *ngIf="hasErrorUserForm('password') && hasErrorUserForm('password')['required']">
+                        Por favor, informe a senha.
+                    </div> -->
+                    </mat-form-field>
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <!-- <mat-icon aria-hidden="false" aria-label="Example home icon">lock</mat-icon> -->
+                    <mat-form-field class="form-payment">
+                        <input matInput type="text" id="cardNickname" placeholder="Apelido do Cartão"
+                            formControlName="cardNickname"
+                            [ngClass]="{ 'is-invalid': submittedPayment && hasErrorPaymentForm('cardNickname') }">
+                        <!-- <div class="invalid-feedback" *ngIf="hasErrorUserForm('password') && hasErrorUserForm('password')['required']">
+                        Por favor, informe a senha.
+                    </div> -->
+                    </mat-form-field>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <button mat-stroked-button color="accent" style="width: 75%;margin-left: 12.5%;" class="btn-block" (click)="createPayment()">CADASTRAR<i style="margin-left: 3%;vertical-align: middle;"
+                    class="material-icons right">send</i></button>
+            </div>
+            <!-- <mat-label>Ainda não tem conta? Cadastra-se</mat-label> -->
+        </form>
+    </mat-card>
+
+</div>

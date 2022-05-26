@@ -1,0 +1,143 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Administrador",
+      "email": "admin@admin.com",
+      "password": "admin"
+    },
+    {
+      "name": "Eduarda Maria",
+      "email": "emcrp@ecomp.poli.br",
+      "password": "admin",
+      "id": 2
+    },
+    {
+      "name": "Eduarda Maria",
+      "email": "emcrp@ecomp.poli.br",
+      "password": "admin",
+      "id": 3
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "category": "Hortifruti",
+      "type": "Frutas",
+      "name": "Uva",
+      "description": "Uva vermelha",
+      "brand": "Da Terra",
+      "image": "https://www.tiaozinho.com/produto-imagem/400/uva-rosada-ou-niagara-kg-cb31a798f2975ba7aa852afc7edb5917.jpg",
+      "price": "R$ 08,79/Kg"
+    },
+    {
+      "id": 1,
+      "category": "Hortifruti",
+      "type": "Frutas",
+      "name": "Uva",
+      "description": "Uva vermelha",
+      "brand": "Da Terra",
+      "image": "https://www.tiaozinho.com/produto-imagem/400/uva-rosada-ou-niagara-kg-cb31a798f2975ba7aa852afc7edb5917.jpg",
+      "price": "R$ 08,79/Kg"
+    },
+    {
+      "id": 1,
+      "category": "Hortifruti",
+      "type": "Frutas",
+      "name": "Uva",
+      "description": "Uva vermelha",
+      "brand": "Da Terra",
+      "image": "https://www.tiaozinho.com/produto-imagem/400/uva-rosada-ou-niagara-kg-cb31a798f2975ba7aa852afc7edb5917.jpg",
+      "price": "R$ 08,79/Kg"
+    },
+    {
+      "id": 1,
+      "category": "Hortifruti",
+      "type": "Frutas",
+      "name": "Uva",
+      "description": "Uva vermelha",
+      "brand": "Da Terra",
+      "image": "https://www.tiaozinho.com/produto-imagem/400/uva-rosada-ou-niagara-kg-cb31a798f2975ba7aa852afc7edb5917.jpg",
+      "price": "R$ 08,79/Kg"
+    },
+    {
+      "id": 1,
+      "category": "Hortifruti",
+      "type": "Frutas",
+      "name": "Uva",
+      "description": "Uva vermelha",
+      "brand": "Da Terra",
+      "image": "https://www.tiaozinho.com/produto-imagem/400/uva-rosada-ou-niagara-kg-cb31a798f2975ba7aa852afc7edb5917.jpg",
+      "price": "R$ 08,79/Kg"
+    },
+    {
+      "id": 1,
+      "category": "Hortifruti",
+      "type": "Frutas",
+      "name": "Uva",
+      "description": "Uva vermelha",
+      "brand": "Da Terra",
+      "image": "https://www.tiaozinho.com/produto-imagem/400/uva-rosada-ou-niagara-kg-cb31a798f2975ba7aa852afc7edb5917.jpg",
+      "price": "R$ 08,79/Kg"
+    },
+    {
+      "id": 1,
+      "category": "Hortifruti",
+      "type": "Frutas",
+      "name": "Uva",
+      "description": "Uva vermelha",
+      "brand": "Da Terra",
+      "image": "https://www.tiaozinho.com/produto-imagem/400/uva-rosada-ou-niagara-kg-cb31a798f2975ba7aa852afc7edb5917.jpg",
+      "price": "R$ 08,79/Kg"
+    },
+    {
+      "id": 1,
+      "category": "Hortifruti",
+      "type": "Frutas",
+      "name": "Uva",
+      "description": "Uva vermelha",
+      "brand": "Da Terra",
+      "image": "https://www.tiaozinho.com/produto-imagem/400/uva-rosada-ou-niagara-kg-cb31a798f2975ba7aa852afc7edb5917.jpg",
+      "price": "R$ 08,79/Kg"
+    },
+    {
+      "id": 1,
+      "category": "Hortifruti",
+      "type": "Frutas",
+      "name": "Uva",
+      "description": "Uva vermelha",
+      "brand": "Da Terra",
+      "image": "https://www.tiaozinho.com/produto-imagem/400/uva-rosada-ou-niagara-kg-cb31a798f2975ba7aa852afc7edb5917.jpg",
+      "price": "R$ 08,79/Kg"
+    }
+  ],
+  "payment": [
+    {
+      "id": 1,
+      "number": "9999 8888 9999 9999",
+      "validity": "20/12/2026",
+      "CVV": 999,
+      "cardholderName": "Eduarda Maria",
+      "cpfCnpj": "999.999.999-99",
+      "cardNickname": "Cartão de refeição"
+    },
+    {
+      "number": "9999 9999 9999 9999",
+      "validity": "09/09/2029",
+      "CVV": "999",
+      "cardholderName": "Eduarda Maria",
+      "cpfCnpj": "999.999.999-99",
+      "cardNickname": "Cartão de Eduarda",
+      "id": 2
+    },
+    {
+      "number": "1111 1111 1111 1111",
+      "validity": "01/01/2031",
+      "CVV": "111",
+      "cardholderName": "Eduarda Maria",
+      "cpfCnpj": "111.111.111-11",
+      "cardNickname": "Cartão de Eduarda",
+      "id": 3
+    }
+  ]
+}
