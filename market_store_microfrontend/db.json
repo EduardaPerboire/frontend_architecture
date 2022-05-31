@@ -11,12 +11,6 @@
       "email": "emcrp@ecomp.poli.br",
       "password": "admin",
       "id": 2
-    },
-    {
-      "name": "Eduarda Maria",
-      "email": "emcrp@ecomp.poli.br",
-      "password": "admin",
-      "id": 3
     }
   ],
   "products": [
@@ -24,91 +18,101 @@
       "id": 1,
       "category": "Hortifruti",
       "type": "Frutas",
-      "name": "Uva",
+      "name": "Uva Vermelha",
       "description": "Uva vermelha",
       "brand": "Da Terra",
       "image": "https://www.tiaozinho.com/produto-imagem/400/uva-rosada-ou-niagara-kg-cb31a798f2975ba7aa852afc7edb5917.jpg",
       "price": "R$ 08,79/Kg"
     },
     {
-      "id": 1,
+      "id": 2,
       "category": "Hortifruti",
       "type": "Frutas",
-      "name": "Uva",
-      "description": "Uva vermelha",
+      "name": "Banana Prata",
+      "description": "Banana Prata",
       "brand": "Da Terra",
-      "image": "https://www.tiaozinho.com/produto-imagem/400/uva-rosada-ou-niagara-kg-cb31a798f2975ba7aa852afc7edb5917.jpg",
+      "image": "https://www.garciasupermercados.com.br/wp-content/uploads/2020/11/banana-prata.jpg",
+      "price": "R$ 05,99/Kg"
+    },
+    {
+      "id": 3,
+      "category": "Hortifruti",
+      "type": "Frutas",
+      "name": "Maça Vermelha",
+      "description": "Maça Vermelha",
+      "brand": "Da Terra",
+      "image": "https://savegnago.vteximg.com.br/arquivos/ids/573294-600-600/Maca-Gala-Bandeja-600g.jpg?v=637582862061030000",
+      "price": "R$ 05,79/Un"
+    },
+    {
+      "id": 4,
+      "category": "Hortifruti",
+      "type": "Frutas",
+      "name": "Laranja Pera",
+      "description": "Laranja Pera",
+      "brand": "Da Terra",
+      "image": "https://savegnago.vteximg.com.br/arquivos/ids/571416-600-600/LARANJA-PERA-3KG-PACOTE-2.jpg?v=637582383566600000",
       "price": "R$ 08,79/Kg"
     },
     {
-      "id": 1,
+      "id": 5,
       "category": "Hortifruti",
       "type": "Frutas",
-      "name": "Uva",
-      "description": "Uva vermelha",
+      "name": "Maracujá Azedo",
+      "description": "Maracujá Azedo",
       "brand": "Da Terra",
-      "image": "https://www.tiaozinho.com/produto-imagem/400/uva-rosada-ou-niagara-kg-cb31a798f2975ba7aa852afc7edb5917.jpg",
-      "price": "R$ 08,79/Kg"
+      "image": "https://savegnago.vteximg.com.br/arquivos/ids/573298-600-600/MARACUJA-AZEDO-500G-BANDEJA.jpg?v=637582862104030000",
+      "price": "R$ 09,99/Kg"
     },
     {
-      "id": 1,
+      "id": 6,
       "category": "Hortifruti",
       "type": "Frutas",
-      "name": "Uva",
-      "description": "Uva vermelha",
+      "name": "Mamão Papaya",
+      "description": "Mamão Papaya",
       "brand": "Da Terra",
-      "image": "https://www.tiaozinho.com/produto-imagem/400/uva-rosada-ou-niagara-kg-cb31a798f2975ba7aa852afc7edb5917.jpg",
-      "price": "R$ 08,79/Kg"
+      "image": "https://savegnago.vteximg.com.br/arquivos/ids/623728-600-600/Mamao-Papaya-Clam-Shell-700g-Cx.jpg?v=637654585962670000",
+      "price": "R$ 09,98/Kg"
     },
     {
-      "id": 1,
+      "id": 7,
       "category": "Hortifruti",
       "type": "Frutas",
-      "name": "Uva",
-      "description": "Uva vermelha",
+      "name": "Pera Rocha",
+      "description": "Pera Rocha",
       "brand": "Da Terra",
-      "image": "https://www.tiaozinho.com/produto-imagem/400/uva-rosada-ou-niagara-kg-cb31a798f2975ba7aa852afc7edb5917.jpg",
-      "price": "R$ 08,79/Kg"
+      "image": "https://savegnago.vteximg.com.br/arquivos/ids/623747-600-600/Pera-Rocha-Sacola-500g.jpg?v=637654586314430000",
+      "price": "R$ 14,99/Kg"
     },
     {
-      "id": 1,
+      "id": 8,
       "category": "Hortifruti",
       "type": "Frutas",
-      "name": "Uva",
-      "description": "Uva vermelha",
+      "name": "Limão Siciliano",
+      "description": "Limão Siciliano",
       "brand": "Da Terra",
       "image": "https://www.tiaozinho.com/produto-imagem/400/uva-rosada-ou-niagara-kg-cb31a798f2975ba7aa852afc7edb5917.jpg",
-      "price": "R$ 08,79/Kg"
+      "price": "R$ 05,58/Un"
     },
     {
-      "id": 1,
+      "id": 9,
       "category": "Hortifruti",
       "type": "Frutas",
-      "name": "Uva",
-      "description": "Uva vermelha",
+      "name": "Melancia Pingo",
+      "description": "Melancia Pingo",
       "brand": "Da Terra",
-      "image": "https://www.tiaozinho.com/produto-imagem/400/uva-rosada-ou-niagara-kg-cb31a798f2975ba7aa852afc7edb5917.jpg",
-      "price": "R$ 08,79/Kg"
+      "image": "https://savegnago.vteximg.com.br/arquivos/ids/445794-600-600/FIGURA-1FRENTE.jpg?v=637256889159830000",
+      "price": "R$ 32,17/Un"
     },
     {
-      "id": 1,
+      "id": 10,
       "category": "Hortifruti",
       "type": "Frutas",
-      "name": "Uva",
-      "description": "Uva vermelha",
+      "name": "Figo Roxo",
+      "description": "Figo Roxo",
       "brand": "Da Terra",
-      "image": "https://www.tiaozinho.com/produto-imagem/400/uva-rosada-ou-niagara-kg-cb31a798f2975ba7aa852afc7edb5917.jpg",
-      "price": "R$ 08,79/Kg"
-    },
-    {
-      "id": 1,
-      "category": "Hortifruti",
-      "type": "Frutas",
-      "name": "Uva",
-      "description": "Uva vermelha",
-      "brand": "Da Terra",
-      "image": "https://www.tiaozinho.com/produto-imagem/400/uva-rosada-ou-niagara-kg-cb31a798f2975ba7aa852afc7edb5917.jpg",
-      "price": "R$ 08,79/Kg"
+      "image": "https://savegnago.vteximg.com.br/arquivos/ids/623701-600-600/Figo-Roxo-Bandeja-Unidade-450g.jpg?v=637654585506400000",
+      "price": "R$ 06,98/Un"
     }
   ],
   "payment": [

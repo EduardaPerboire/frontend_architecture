@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { NotifierService } from 'angular-notifier';
 import { HomeService } from './home.service';
@@ -9,6 +9,9 @@ import { HomeService } from './home.service';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
+
+  @Input()
+  searchInput = '';
 
   username: any;
   products: any;
@@ -25,6 +28,10 @@ export class HomeComponent implements OnInit {
       this.username = localStorage.getItem('username');
       console.log('this.username:', this.username)
     }
+    this.allproducts();
+  }
+
+  allproducts() {
     this.homeService.allproducts().subscribe(data => {
       if (Object.keys(data).length) {
         console.log(data)
@@ -53,7 +60,22 @@ export class HomeComponent implements OnInit {
   }
 
   applyStyles() {
-    return this.username != null ? '75%': '80%'
+    return this.username != null ? '51%': '58%'
+  }
+
+  search() {
+    if (this.searchInput != null) {
+      this.homeService.searchproduct(this.searchInput).subscribe(data => {
+        if (Object.keys(data).length) {
+          console.log(data)
+          this.products = data;
+        } else {
+          console.log('no')
+        }
+      });
+    } else {
+      this.allproducts();
+    }
   }
 
 }

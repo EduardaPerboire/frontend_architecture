@@ -13,4 +13,8 @@ export class DashboardService {
   allproducts() {
     return this.http.get(this.URL + '/products');
  }
+
+  searchproduct(product: string) {
+    return this.http.get(this.URL + '/products?' + `name=${product}`);
+  }
 }

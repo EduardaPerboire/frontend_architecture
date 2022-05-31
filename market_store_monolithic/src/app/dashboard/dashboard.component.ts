@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { DashboardService } from './dashboard.service';
 import { NotifierService } from 'angular-notifier';
@@ -9,6 +9,9 @@ import { NotifierService } from 'angular-notifier';
   styleUrls: ['./dashboard.component.css']
 })
 export class DashboardComponent implements OnInit {
+
+  @Input()
+  searchInput = '';
 
   username: any;
   products: any;
@@ -24,6 +27,10 @@ export class DashboardComponent implements OnInit {
       this.username = localStorage.getItem('username');
       console.log('this.username:', this.username)
     }
+    this.allproducts();
+  }
+
+  allproducts () {
     this.productsService.allproducts().subscribe(data => {
       if (Object.keys(data).length) {
         console.log(data)
@@ -52,7 +59,22 @@ export class DashboardComponent implements OnInit {
   }
 
   applyStyles() {
-    return this.username != null ? '69%': '72%'
+    return this.username != null ? '51%': '58%'
+  }
+
+  search() {
+    if (this.searchInput != null) {
+      this.productsService.searchproduct(this.searchInput).subscribe(data => {
+        if (Object.keys(data).length) {
+          console.log(data)
+          this.products = data;
+        } else {
+          console.log('no')
+        }
+      });
+    } else {
+      this.allproducts();
+    }
   }
 
 }

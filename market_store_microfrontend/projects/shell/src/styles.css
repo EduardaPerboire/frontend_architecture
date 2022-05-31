@@ -10,6 +10,7 @@ body {
 
 body {
 	min-height: 100vh;
-	background-color: #e5e5e5;
+	/* background-color: #e5e5e5; */
+	background-image: linear-gradient(rgb(138, 242, 169), rgb(188, 242, 195), rgb(186, 244, 188), rgb(202, 242, 193));
 	font-family: 'Roboto', sans-serif;
 }
